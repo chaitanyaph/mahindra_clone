@@ -1,0 +1,305 @@
+* {
+       
+    list-style: none;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100vh; /* Adjust this if you want to change the height */
+    object-fit: cover;
+}
+
+#mynav1>ul>li>a{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 6px;
+    position: relative;
+    width: 22rem;
+    
+}
+
+.card-img-top {
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.card a {
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    transform: translateX(-50%);
+    text-decoration: underline;
+    font-size: 22px;
+    color: white;
+}
+
+.card-img-top:hover{
+    transform: scale(1.09);
+}
+
+@keyframes slideInFromLeft {
+0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(0);
+}
+}
+
+.carousel-caption {
+color: white;
+text-align: left;
+margin-bottom: 28%;
+animation: slideInFromLeft 1s ease-in-out forwards; /* Apply the animation */
+}
+
+.carousel-caption>h4{
+color: brown;
+
+}
+
+.carousel-caption>button{
+padding: 10px;
+width: 130px;
+background-color: brown;
+color: white;
+border-radius: 5px;
+border: 0cap;
+}
+
+.mid-sect{
+text-align: center;
+}
+
+.container-1{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.heading{
+margin: 10px;
+text-align: center;
+}
+
+.card1{
+background-color: black;
+color: white;
+}
+.card1 button{
+background-color: brown;
+border: 0cap;
+}
+
+.container-2{
+
+display: flex;
+}
+.container-2>.card{
+margin-left: 100px;
+}
+.card {
+display: flex;
+}
+
+.card-body {
+flex: 1; /* Take remaining space */
+padding: 1rem; /* Adjust padding as needed */
+}
+
+.demo{
+display: flex;
+}
+
+.cardimg{
+width: 380px;
+height: 280px;
+}
+
+.card-2{
+height: 250px;
+background-color: black;
+color: white;
+border: 0cap;
+}
+.container-3{
+margin-left: 50px;
+margin-top: 10px;
+display: flex;
+border: 0cap;
+justify-content: center;
+align-items: center;
+}
+
+.container-4> .parent1{
+margin-left: 100px;
+}
+.cardimg1{
+width: 350px;
+height: 200px;
+border: 0cap;
+}
+
+.crdb{
+background-color: black;
+color: white;
+border: 0cap;
+}
+.card-3{
+margin-left: -7px;
+border: 0cap;
+}
+.heading-1{
+text-align: center;
+}
+
+.parent-card1{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0cap;
+}
+.conatiner-4 {
+justify-content: center;
+margin-left: 50px;
+}
+
+.childB{
+margin-left: 100px;
+}
+.people-img{
+width: 650px;
+height: 310px;
+}
+.card-4{
+justify-content: center; 
+border: 0cap;
+}
+
+.heading-3{
+text-align: center;
+margin-top: -90px;
+}
+.parent-card1:hover{
+background-color: rgba(204, 65, 65, 0.795);
+}
+.parent-card1>.card-body>button{
+background-color: brown;
+border: 0cap;
+padding: 10px;
+color: white;
+width: 150px;
+}
+.childB{
+display: flex;
+}
+.card-5{
+margin: 12px;
+overflow: hidden;
+justify-content: center;
+}
+.card-5>.card-body>button{
+background-color: brown;
+border: 0cap;
+padding: 10px;
+color: white;
+width: 150px;
+}
+
+.card-5:hover{
+background-color: rgba(165, 42, 42, 0.808);
+}
+
+footer{
+
+background-color: rgba(0, 0, 0, 0.747);
+list-style: none;
+text-decoration: none;
+}
+
+.footer-container{
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: center;
+}
+
+.logo{
+margin-top: 20px;
+color: white;
+font-size: larger;
+font-weight: 500;
+
+}
+
+.mahin-logo {
+display: block; /* Ensure the image behaves like a block element */
+margin: 0 auto; /* Center the image horizontally */
+margin-top: 15px;
+margin-bottom: 20px;
+}
+.demo1 a {
+color: rgba(255, 255, 255, 0.514);
+text-decoration: none;
+}
+.demo1>ul>li{
+color: white;
+margin-top: 15px;
+text-decoration: none;
+}
+.demo1 a:hover{
+color: white;
+}
+.mega-rise{
+position: absolute;
+width: 100%;
+opacity: 0;
+visibility: hidden;
+transition: 1.5s ease;
+height: 300px;
+top: 100%;
+left: 0%;
+background-color: black;
+}
+
+.mega-rise {
+position: absolute;
+width: 100%;
+opacity: 0;
+visibility: hidden;
+display: flex;
+flex-direction: row; 
+justify-content: space-between; 
+align-items: center; 
+transition: opacity 0.5s ease, visibility 0.5s ease; 
+height: auto;
+top: 100%;
+left: 0;
+background-color: black;
+z-index: 999;
+color: white;
+}
+
+.nav-item:hover .mega-rise {
+opacity: 1;
+visibility: visible;
+}
+
+.mega-rise-items>ul>li{
+    
+    margin: 10px;
+    margin-left: 500px;
+}
+
+.rise-img img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
